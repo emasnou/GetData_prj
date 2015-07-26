@@ -15,4 +15,7 @@ vignettes/*.pdf
 
 
 # data
-data/*
+#data/*
+data/getdata_projectfiles_UCI HAR Dataset.zip
+data/UCI HAR Dataset/*
+
