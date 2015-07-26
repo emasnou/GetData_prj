@@ -176,3 +176,6 @@ DF.new = summarise_each_(DF.new, funs(mean,sd), names(DF.new)[-(562:564)])
 
 print (DF.new)
 
+write.table(DF.new,file = "data/Output.txt",append = FALSE,row.names = FALSE)
+
+
